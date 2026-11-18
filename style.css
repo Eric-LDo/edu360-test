@@ -1,0 +1,64 @@
+:root {
+  color-scheme: dark;
+
+  /* Fundos e superfícies (do mais escuro ao mais claro) */
+  --background: #05060a;        /* fundo da página */
+  --surface: #101827;           /* cards, painéis, popovers */
+  --elevated: #172337;          /* um nível acima: campos desabilitados, hovers */
+  --muted: #25344b;             /* blocos discretos, trilho de progresso */
+
+  /* Texto */
+  --foreground: #f1f5fc;        /* títulos e texto principal */
+  --text-body: #d0dced;         /* parágrafos */
+  --text-secondary: #afbed3;    /* legendas, texto de apoio */
+
+  /* Bordas */
+  --border: #384c68;            /* divisórias e bordas de card */
+  --field-border: #7386a1;      /* borda dos inputs e barra de rolagem */
+
+  /* Links, foco e destaque */
+  --link: #93c5fd;
+  --link-hover: #bae6fd;
+  --focus: #7dd3fc;             /* contorno de foco do teclado */
+  --tint: #142441;              /* fundo de item ativo */
+  --tint-strong: #233b60;       /* seleção de texto */
+
+  /* Erro */
+  --danger: #ffb4ab;
+  --danger-surface: #401e25;
+
+  /* Ações (iguais nos dois temas, texto branco em cima) */
+  --action: #0053db;
+  --action-hover: #1d4ed8;
+  --brand-from: #2563eb;        /* gradiente da marca/botão */
+  --brand-to: #7dd3fc;
+  --brand-glow: #2563eb40;
+  --on-dark: #ffffff;
+  --on-dark-muted: #dce2f3;
+
+  /* Header e hero (sempre escuros) */
+  --ink: #05060a;
+  --ink-soft: #0b1020;
+  --chrome-border: #585f6c;
+  --chrome-hover: #2a313d;
+  --blob-blue: #2563eb38;
+  --blob-sky: #7dd3fc1f;
+
+  /* Vidro fosco (.glass / .glass-card) */
+  --glass: #101827ed;
+  --glass-edge: #91b9f04d;
+  --glass-card: #101c30dc;
+  --glass-card-solid: #111d30;
+  --glass-highlight: #7dd3fc12;
+  --glass-highlight-soft: #7dd3fc05;
+
+  /* Brilho azul atrás dos cards */
+  --card-glow-from: #2563eb30;
+  --card-glow-to: #3b82f626;
+  --card-glow-from-hover: #2563eb55;
+  --card-glow-to-hover: #3b82f640;
+
+  /* Manchas suaves do fundo */
+  --blob-soft-blue: #2563eb1c;
+  --blob-soft-sky: #3b82f612;
+}
